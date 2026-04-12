@@ -2,7 +2,7 @@ import { useState } from 'react';
 import type { FormEvent } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../contexts/AuthContext';
-
+import { Link } from 'react-router-dom';
 export function LoginPage() {
   const { login } = useAuth();
   const navigate = useNavigate();
@@ -49,8 +49,13 @@ export function LoginPage() {
         >
           {loading ? 'Đang đăng nhập...' : 'Đăng nhập'}
         </button>
+        <p className="text-sm text-center text-gray-600">
+  Bạn chưa có tài khoản?{' '}
+  <Link to="/register" className="text-blue-600 hover:underline font-medium">
+    Đăng ký tại đây
+  </Link>
+</p>
       </form>
     </div>
   );
 }
-//asdkjfsndlfksdnfisdjfbskdjf

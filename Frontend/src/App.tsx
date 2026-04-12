@@ -3,6 +3,7 @@ import { Navigate, Route, Routes } from 'react-router-dom';
 import { MainLayout } from './components/layout/MainLayout';
 import { ProtectedRoute } from './components/routing/ProtectedRoute';
 import './index.css';
+import RegisterPage from './pages/RegisterPage';
 
 const FeedPage = lazy(() =>
   import('./pages/FeedPage').then((module) => ({
@@ -23,6 +24,25 @@ const HashtagPage = lazy(() =>
 );
 
 function App() {
+  return (
+    <Suspense fallback={<div className="p-6 text-gray-600">Đang tải trang...</div>}>
+      <Routes>
+        <Route path="/login" element={<LoginPage />} />
+        
+        {/* 👇 THÊM DÒNG NÀY */}
+        <Route path="/register" element={<RegisterPage />} />
+
+        <Route element={<ProtectedRoute />}>
+          <Route element={<MainLayout />}>
+            <Route path="/" element={<FeedPage />} />
+            <Route path="/hashtags" element={<HashtagPage />} />
+          </Route>
+        </Route>
+
+        <Route path="*" element={<Navigate to="/" replace />} />
+      </Routes>
+    </Suspense>
+  );
   return (
     <Suspense fallback={<div className="p-6 text-gray-600">Đang tải trang...</div>}>
       <Routes>
