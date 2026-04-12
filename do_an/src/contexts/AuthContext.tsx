@@ -21,7 +21,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     throw new Error('Tên đăng nhập và mật khẩu là bắt buộc');
   }
 
-  const res = await fetch('https://localhost:5001/api/auth/login', {
+  const res = await fetch('http://localhost:5196/api/auth/login', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
@@ -44,7 +44,7 @@ register: async (username: string, password: string) => {
     throw new Error('Tên đăng nhập và mật khẩu là bắt buộc');
   }
 
-  const res = await fetch('https://localhost:5001/api/users', {
+  const res = await fetch('https://localhost:5196/api/users', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',

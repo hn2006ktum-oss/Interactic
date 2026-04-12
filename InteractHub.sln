@@ -1,0 +1,39 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "do_an", "do_an", "{94007352-05F0-038C-2FAD-B7258653677B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InteractHub.Api", "do_an\InteractHub.Api\InteractHub.Api.csproj", "{120D47C4-41BE-3F4F-80F5-AB15FD1B23D1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "backend", "backend", "{DE730212-DCC8-70A2-58C2-1D49131E2B3D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InteractHub.Api", "do_an\backend\InteractHub.Api\InteractHub.Api.csproj", "{C602B9D1-9564-CFC0-0EC7-4A2714648B85}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{120D47C4-41BE-3F4F-80F5-AB15FD1B23D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{120D47C4-41BE-3F4F-80F5-AB15FD1B23D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{120D47C4-41BE-3F4F-80F5-AB15FD1B23D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{120D47C4-41BE-3F4F-80F5-AB15FD1B23D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C602B9D1-9564-CFC0-0EC7-4A2714648B85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C602B9D1-9564-CFC0-0EC7-4A2714648B85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C602B9D1-9564-CFC0-0EC7-4A2714648B85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C602B9D1-9564-CFC0-0EC7-4A2714648B85}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{120D47C4-41BE-3F4F-80F5-AB15FD1B23D1} = {94007352-05F0-038C-2FAD-B7258653677B}
+		{DE730212-DCC8-70A2-58C2-1D49131E2B3D} = {94007352-05F0-038C-2FAD-B7258653677B}
+		{C602B9D1-9564-CFC0-0EC7-4A2714648B85} = {DE730212-DCC8-70A2-58C2-1D49131E2B3D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CEAEBB4B-7FB2-4C23-910E-B9C888B775BC}
+	EndGlobalSection
+EndGlobal

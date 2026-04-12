@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ASUS\\InteractHub\\Frontend\\InteractHub.Api\\InteractHub.Api.csproj": {}
+    "C:\\Users\\ASUS\\InteractHub\\do_an\\InteractHub.Api\\InteractHub.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ASUS\\InteractHub\\Frontend\\InteractHub.Api\\InteractHub.Api.csproj": {
+    "C:\\Users\\ASUS\\InteractHub\\do_an\\InteractHub.Api\\InteractHub.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ASUS\\InteractHub\\Frontend\\InteractHub.Api\\InteractHub.Api.csproj",
+        "projectUniqueName": "C:\\Users\\ASUS\\InteractHub\\do_an\\InteractHub.Api\\InteractHub.Api.csproj",
         "projectName": "InteractHub.Api",
-        "projectPath": "C:\\Users\\ASUS\\InteractHub\\Frontend\\InteractHub.Api\\InteractHub.Api.csproj",
+        "projectPath": "C:\\Users\\ASUS\\InteractHub\\do_an\\InteractHub.Api\\InteractHub.Api.csproj",
         "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ASUS\\InteractHub\\Frontend\\InteractHub.Api\\obj\\",
+        "outputPath": "C:\\Users\\ASUS\\InteractHub\\do_an\\InteractHub.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
