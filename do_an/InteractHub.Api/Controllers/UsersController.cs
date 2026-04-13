@@ -24,4 +24,9 @@ public class UsersController : ControllerBase
 
         return Ok(user);
     }
+    [HttpGet]
+public IActionResult GetAll()
+{
+    return Ok(_context.Users.ToList());
+}
 }
